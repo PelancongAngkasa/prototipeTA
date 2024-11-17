@@ -4,7 +4,7 @@ import Label from "../atoms/label/label"
 const Input_Form = () => {
     const {name, label, type, placeholder} = props
     return (
-        <div className="mb-4">
+        <div class="mb-4">
             <Label htmlFor={name}>{label}</Label>
             <Input type={type} placeholder={placeholder} name={name}/>
         </div>
