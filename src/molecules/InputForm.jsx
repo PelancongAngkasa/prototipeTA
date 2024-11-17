@@ -1,7 +1,7 @@
 import Input from "../atoms/input/Input"
 import Label from "../atoms/label/label"
 
-const Input_Label = () => {
+const Input_Form = () => {
     const {name, label, type, placeholder} = props
     return (
         <div className="mb-4">
@@ -10,3 +10,5 @@ const Input_Label = () => {
         </div>
     )
 }
+
+export default Input_Form
